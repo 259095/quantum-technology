@@ -1,4 +1,4 @@
-# Q-notes
+# MATH NOTES
 
 ## Boolean Algebra.
 Concerns true or false events.
