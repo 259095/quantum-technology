@@ -106,75 +106,51 @@ Mean of a variations is called variance
 Square root of the variance is called standard deviation
 ```
 
-### Correclation
+### Correlation
+
+Example:
 
 E(XY) test if random variables are correlated or not.
 
-
-Test to Determine if Real-World Random Variables are Correlated
-
 Consider two random variables X and Y
-
 X is -1 with a probability of 0.5, and +1 with a probability of 0.5
-
 Y is -2 with a probability of 0.5, and +2 with a probability of 0.5
 
-Consider the random variable XY.
+Consider the random variable XY and XY can be either -2 or +2. No other values are possible.
 
-XY can be either -2 or +2. No other values are possible
+Suppose that X and Y are independent. Lets find the probabilities of XY being -2 and +2.
 
-
-Suppose that X and Y are independent.
-
-Lets find the probabilities of XY being -2 and +2
-
-X = -1, Y = -2     XY = +2   Probability = 0.25
-
-X =+1, Y= -2     XY =  -2   Probability = 0.25
-
+X = -1, Y = -2   XY = +2   Probability = 0.25
+X = +1, Y = -2   XY = -2   Probability = 0.25
 X = -1, Y = +2   XY = -2   Probability = 0.25
-
-X = +1, Y = +2    XY = +2   Probability = 0.25
+X = +1, Y = +2   XY = +2   Probability = 0.25
 
 This means that P(XY=-2) = 0.5 and P(XY=+2) = 0.5
 
 E(XY) = 0.5x-2 + 0.5x+2 = 0
 
-
-Instead, suppose that X and Y are related to one another.
-
-For instance, lets say that Y = 2X
+Instead, suppose that X and Y are related to one another. For instance, lets say that Y = 2X
 
 Lets find the probabilities of XY being -2 and +2
 
-X = -1, Y = -2     XY = +2   Probability = 0.5
+X = -1, Y = -2   XY = +2   Probability = 0.5
+X = +1, Y = +2   XY = +2   Probability = 0.5
 
-X = +1, Y = +2    XY = +2   Probability = 0.5
-
-In other words, the only value possible for XY is +2.
-
+In other words, the only value possible for XY is +2. 
 This means that P(XY=+2) = 1
 
 E(XY) = +2
 
-
 When X and Y are independent of each other, E(XY) = 0
-
-But when X and Y are related, the value of E(XY) is likely to be different from 0.
-
-In the example, we studied above, where Y = 2X, E(XY) was +2
-
+But when X and Y are related, the value of E(XY) is likely to be different from 0. In the example, we studied above, where Y = 2X, E(XY) was +2
 
 This can be used to find out if random variables in the real world are independent or not.
 
 Suppose you have two real-world random variables A and B.
 
 A is -1 with a probability of 0.5
-
 A is +1 with a probability of 0.5
-
 B is -2 with a probability of 0.5
-
 B is +2 with a probability of 0.5
 
 You measure AB over a billion experiments and find that the average value of AB you obtained through experiments is 0.7
@@ -183,7 +159,53 @@ This tells you that A and B are most likely not independent of each other.
 
 If they had been independent, then over a billion experiments, the average of AB would have been much closer to 0.
 
-
 In this way, the expected value can be used to determine if random variables are independent or not.
 
-  
+## Complex numbers
+
+```
+a + bi
+```
+```
+(-4)^(1/2) = (-1)^(1/2) x 4^(1/2) = i x 4^(1/2) = 2 i
+```
+```
+i^(1/2) = (1+i)/(2^(1/2))
+```
+```
+k(a + bi) = ka + kbi
+```
+
+Treat i as any other variable.
+
+### Complex conjugate
+
+Change the sign of imaginary part.
+
+### Squared magnitude
+
+Mutiply a complex number by its complex conjugate.
+
+| a + bi|^2 = a^2 + b^2
+
+### Complex division
+
+Multiply both numerator and denominator by the complex conjugate of the denominator.
+
+### Euler's Formula
+
+e^ix = cos(x) + isin(x)
+
+Any complex number whose squared magnitude is 1 can be written in the form a + bi = cos(x) + isin(x) = e^ix
+
+### Polar Form
+
+re^ix
+
+(TBE)
+
+### Fractional powers
+
+Use Polar Form to represent number you want to compute fractional powers for.
+
+(TBE)
